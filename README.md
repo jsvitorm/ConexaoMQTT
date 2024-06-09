@@ -1,3 +1,5 @@
+### José Vitor Marcelino, Rafael Techio, Luiz Covas
+
 # O que é MQTT
 
 MQTT (Message Queuing Telemetry Transport) é um protocolo de comunicação leve e eficiente, projetado para ser utilizado em redes com baixa largura de banda, alta latência ou redes intermitentes. Originalmente desenvolvido pela IBM, o MQTT é amplamente utilizado em aplicações de Internet das Coisas (IoT) devido à sua simplicidade e eficiência. Ele opera sobre o protocolo TCP/IP e utiliza um modelo de publicação/assinatura (pub/sub), onde dispositivos podem publicar mensagens em tópicos específicos ou assinar-se a esses tópicos para receber mensagens. Sua leveza e confiabilidade o tornam ideal para conectar dispositivos remotos com baixa capacidade de processamento e conexão instável.
