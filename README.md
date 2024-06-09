@@ -7,10 +7,14 @@ MQTT (Message Queuing Telemetry Transport) é um protocolo de comunicação leve
 
 Neste exemplo, vamos configurar uma conexão MQTT pública utilizando o HiveMQ, um dos brokers MQTT mais populares. O HiveMQ oferece uma infraestrutura robusta e segura para a comunicação MQTT, permitindo testes e implementações rápidas. Atuarei como um publicador de tópico, ou seja, enviarei mensagens para um tópico específico. Para isso, utilizaremos as ferramentas e o broker público disponibilizado pelo HiveMQ, que nos permitirá publicar mensagens sem a necessidade de uma infraestrutura própria.
 
+<img src="mqtt1.jpg" alt="Imagem de um exemplo de configuração MQTT">
+<img src="mqtt2.jpg" alt="Imagem de um exemplo de configuração MQTT">
 
 # Funcionamento da Subscription e Atuação como Subscriber
 
 No MQTT, a subscription (ou assinatura) é o processo pelo qual um cliente se inscreve em um tópico específico para receber mensagens publicadas naquele tópico. Quando um cliente se inscreve em um tópico, ele começa a receber todas as mensagens enviadas para esse tópico pelo publicador. Neste exemplo, também atuarei como um subscriber do tópico de teste que criamos, o que significa que estarei recebendo todas as mensagens que foram publicadas naquele tópico. Essa funcionalidade é essencial para muitos cenários de IoT, onde dispositivos precisam receber dados em tempo real de outros dispositivos ou sensores.
+
+<img src="Screenshot_1078.png" alt="Imagem de um exemplo de configuração MQTT">
 
 
 # Possíveis vulnerabilidades: Confidencialidade, Disponibilidade, Integridade
