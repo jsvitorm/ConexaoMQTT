@@ -1,4 +1,4 @@
-### José Vitor Marcelino, Rafael Techio, Luiz Covas
+### José Vitor Marcelino, Rafael Techio, Luiz Covas, Felipe Moura
 
 # O que é MQTT
 
